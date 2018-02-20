@@ -1,6 +1,6 @@
 {
   "name": "svelte-dts-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "svelte-dts-loader",
   "main": "index.js",
   "scripts": {
