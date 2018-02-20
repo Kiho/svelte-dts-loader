@@ -48,8 +48,9 @@ module.exports = function (source, map, meta) {
 		},
 
 		script: ({ content, attributes, filename }) => {
-			targetPath = id.replace('/src/', '/preprocessed/');			
-			targetPath = id.replace('\\src\\', '\\preprocessed\\');
+			// targetPath = id.replace('/src/', '/preprocessed/');			
+			// targetPath = id.replace('\\src\\', '\\preprocessed\\');
+			targetPath = id;
 			const tsFilePath = baseId + '.ts';
 			const name = sanitize(filename)
 			// console.log('filename, filePath', filename, name, tsFilePath);
