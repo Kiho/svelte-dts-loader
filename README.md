@@ -1,5 +1,5 @@
 # svelte-dts-loader
-Generate TypeScript definition files from Svelte template files using svelte preprocessor.
+A webpack loader to generate TypeScript definition files from Svelte template files using svelte preprocessor.
 
 ## Installation
 
